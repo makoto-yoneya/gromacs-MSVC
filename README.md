@@ -1,6 +1,6 @@
 # gromacs-MSVC
 
-Sample binary executables (in release section) of [GROMACS-2019-6][1] build with Visual Studio 2019
+Sample binary executables (in release section) of [GROMACS-2019.6][1] build with Visual Studio 2019
 
 ## Releases
 
@@ -10,7 +10,7 @@ Single precision executable run with (at least) AVX-256 CPU under 64bit Windows 
 
 Build under Visual Studio 2019 x64 Native Tools Command Prompt with
 
-`cmake -G "NMake Makefiles" -DGMX_FFT_LIBRARY=fftpack -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX="C:\opt\gromacs" -DGMX_SIMD=AVX_256 -DGMX_GPU=ON ..\gromacs-2019.6`
+`cmake -G "NMake Makefiles" -DGMX_FFT_LIBRARY=fftpack -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX="C:\app\gromacs" -DGMX_SIMD=AVX_256 -DGMX_GPU=ON ..\gromacs-2019.6`
 
 then
 
@@ -22,7 +22,7 @@ Single precision executable run with (at leaset) SSE2 CPU under 32bit (or 64bit)
 
 Build under Visual Studio 2019 x86 Native Tools Command Prompt with
 
-`cmake -G "NMake Makefiles" -DGMX_FFT_LIBRARY=fftpack -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX="C:\opt\gromacs" -DGMX_SIMD=SSE2 -DGMX_GPU=OFF ..\gromacs-2019.6`
+`cmake -G "NMake Makefiles" -DGMX_FFT_LIBRARY=fftpack -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX="C:\app\gromacs" -DGMX_SIMD=SSE2 -DGMX_GPU=OFF ..\gromacs-2019.6`
 
 then
 
