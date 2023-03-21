@@ -10,7 +10,7 @@ Single precision executable run with (at least) AVX-256 CPU under 64bit Windows 
 
 Apply patch for the original gromacs-2023 sources.
 
-`patch -p1 < gromacs-2023-MSVC_cuda.patch`
+`patch -p1 < gromacs-2023_MSVC_cuda.patch`
 
 then
 
